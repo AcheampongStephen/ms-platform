@@ -14,14 +14,12 @@ Modern React application built with Vite, Tailwind CSS, and industry-standard li
 - **Lucide React** - Icon library
 
 ## 📦 Installation
-
 ```bash
 # Install dependencies
 npm install
 ```
 
 ## 🛠️ Development
-
 ```bash
 # Start dev server (with hot reload)
 npm run dev
@@ -30,7 +28,6 @@ npm run dev
 ```
 
 ## 🏗️ Build for Production
-
 ```bash
 # Build optimized production bundle
 npm run build
@@ -40,7 +37,6 @@ npm run preview
 ```
 
 ## 📁 Project Structure
-
 ```
 src/
 ├── api/              # API client and endpoints
@@ -62,7 +58,6 @@ src/
 ## 🔌 API Integration
 
 The frontend connects to the BFF (Backend for Frontend) service:
-
 ```javascript
 // Default: http://localhost:3001/api
 // Configure in .env file:
@@ -72,7 +67,6 @@ VITE_BFF_URL=http://localhost:3001/api
 ## 🎨 Styling
 
 Using Tailwind CSS utility classes:
-
 ```jsx
 <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
   Click Me
@@ -80,7 +74,6 @@ Using Tailwind CSS utility classes:
 ```
 
 ## 🧪 Testing
-
 ```bash
 # Run tests
 npm test
@@ -95,7 +88,6 @@ npm run test:coverage
 ## 🌍 Environment Variables
 
 Create a `.env` file:
-
 ```bash
 VITE_BFF_URL=http://localhost:3001/api
 VITE_APP_NAME=E-Commerce Platform
@@ -139,14 +131,12 @@ VITE_ENVIRONMENT=development
 ## 🐛 Troubleshooting
 
 ### Port already in use
-
 ```bash
 # Kill process on port 5173
 npx kill-port 5173
 ```
 
 ### Dependencies issues
-
 ```bash
 # Clear cache and reinstall
 rm -rf node_modules package-lock.json
@@ -161,5 +151,3 @@ npm install
 4. Submit pull request
 
 ---
-
-**Built with ❤️ using React + Vite**
